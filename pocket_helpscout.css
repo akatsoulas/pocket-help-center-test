@@ -147,7 +147,7 @@ body {
 
 @media screen and (min-width: 1025px) {
   #docsSearch::before {
-    background-image: url("https://i.ibb.co/syyY1nM/pocket-help-left-alt.png");
+    background-image: url("/assets/pocket_logo.png");
     background-repeat: no-repeat;
     background-size: auto;
     bottom: 0;
@@ -162,7 +162,7 @@ body {
   }
 
   #docsSearch::after {
-    background-image: url("https://i.ibb.co/qyXtXG9/pocket-help-right-alt.png");
+    background-image: url("/assets/pocket_logo.png");
     background-repeat: no-repeat;
     background-size: auto;
     bottom: 0;
@@ -376,10 +376,6 @@ body {
     width: calc(100% / 3 - 23px);
   }
 
-  .category-list .category:nth-child(3n + 3) {
-    /* margin-right: 0; */
-  }
-
   #collection-category-8 .category {
     padding-top: 60px;
     min-height: 190px;
@@ -422,13 +418,8 @@ body {
   background-repeat: no-repeat;
   background-position: center 60px;
   background-size: 80px 80px;
-  background-image: url(https://i.ibb.co/C2pYvyG/pocket-logo.png);
+  background-image: url(/assets/pocket_logo.png);
 }
-
-#category-857 {
-  /* background-image: url(https://d2x2losda9vsjs.cloudfront.net/docs/assets/2019/docs-icon-logo-mark.jpg); */
-}
-
 /* Inner Pages */
 
 #searchBar.sm button .icon-search {
