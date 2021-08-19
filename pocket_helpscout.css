@@ -19,8 +19,7 @@
   text-indent: -9000px;
   width: 121px;
   height: 30px;
-  background: url(https://assets.getpocket.com/web-ui/assets/pocket-logo-light-mode.9a20614bbcbaf69b221df81a80daa73d.svg)
-    no-repeat 0 0;
+  background: url(/assets/pocket-logo.svg) no-repeat 0 0;
   background-size: 100%;
 }
 
@@ -72,12 +71,6 @@
 #contactModal h2 {
   background-color: #fff;
 }
-
-/* Removing since this was causing a lightbox UI bug with the cose button
-        [class^=icon-], [class*=" icon-"], .featherlight-close-icon {
-            color: #fff;
-        }
-        */
 
 body {
   background-color: #fff;
