@@ -7,6 +7,32 @@
   --text-primary: #15141a;
 }
 
+@font-face {
+  font-family: "Graphik Web";
+  src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Semibold-Web.eot");
+  src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Semibold-Web.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Semibold-Web.woff2")
+      format("woff2"),
+    url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Semibold-Web.woff")
+      format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Graphik Web";
+  src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Regular-Web.eot");
+  src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Regular-Web.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Regular-Web.woff2")
+      format("woff2"),
+    url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Regular-Web.woff")
+      format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 .navbar {
   margin-bottom: 0;
   box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
@@ -19,7 +45,7 @@
   text-indent: -9000px;
   width: 121px;
   height: 30px;
-  background: url("https://dalexsy.github.io/pocket-help-center-test/assets/pocket-logo.svg")
+  background: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket-logo.svg")
     no-repeat 0 0;
   background-size: 100%;
 }
@@ -83,7 +109,7 @@ body {
 .navbar .nav li a,
 .navbar .icon-private-w {
   color: #1a1a1a;
-  font-family: Graphik LCG;
+  font-family: "Graphik Web";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -119,7 +145,7 @@ body {
 
 #docsSearch h1 {
   color: #fff;
-  font-family: Graphik LCG;
+  font-family: "Graphik Web";
   font-style: normal;
   font-weight: 600;
   font-size: 33px;
@@ -148,7 +174,7 @@ body {
 
 @media screen and (min-width: 1025px) {
   #docsSearch::before {
-    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/pocket_logo.png");
+    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_logo.png");
     background-repeat: no-repeat;
     background-size: auto;
     bottom: 0;
@@ -163,7 +189,7 @@ body {
   }
 
   #docsSearch::after {
-    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/pocket_logo.png");
+    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_logo.png");
     background-repeat: no-repeat;
     background-size: auto;
     bottom: 0;
@@ -340,7 +366,7 @@ body {
 
 .category-list h3 {
   color: var(--text-primary);
-  font-family: Graphik LCG;
+  font-family: "Graphik Web";
   font-style: normal;
   font-weight: 600;
   font-size: 19px;
@@ -419,7 +445,7 @@ body {
   background-repeat: no-repeat;
   background-position: center 60px;
   background-size: 80px 80px;
-  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/pocket_logo.png");
+  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_logo.png");
 }
 /* Inner Pages */
 
