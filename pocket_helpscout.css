@@ -9,9 +9,11 @@
 
 @font-face {
   font-family: "Doyle";
-  src: url("Doyle-Medium-Web.woff2") format("woff2"),
-    url("Doyle-Medium-Web.woff") format("woff");
-  font-weight: 500;
+  src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Doyle-Medium-Web.woff2")
+      format("woff2"),
+    url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Doyle-Medium-Web.woff")
+      format("woff");
+  font-weight: normal;
   font-style: normal;
 }
 
