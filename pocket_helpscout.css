@@ -6,41 +6,25 @@
   --brand-amber: #fcb643;
   --text-primary: #15141a;
 }
-
 @font-face {
-  font-family: "Doyle";
-  src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Doyle-Medium-Web.woff2")
-      format("woff2"),
-    url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Doyle-Medium-Web.woff")
-      format("woff");
-  font-weight: normal;
-  font-style: normal;
+  font-family: Doyle;
+  src: url("https://assets.getpocket.com/web-ui/assets/Doyle-Medium.c09a60519e560b51048e9efa13159e15.woff"),
+    url("https://assets.getpocket.com/web-ui/assets/Doyle-Medium.eb6ee0eb205e8467cb3b0e61191217b2.woff2");
+  font-weight: 500;
 }
 
 @font-face {
-  font-family: "Graphik Web";
-  src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Semibold-Web.eot");
-  src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Semibold-Web.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Semibold-Web.woff2")
-      format("woff2"),
-    url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Semibold-Web.woff")
-      format("woff");
-  font-weight: 600;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Graphik Web";
-  src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Regular-Web.eot");
-  src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Regular-Web.eot?#iefix")
-      format("embedded-opentype"),
-    url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Regular-Web.woff2")
-      format("woff2"),
-    url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Regular-Web.woff")
-      format("woff");
+  font-family: Graphik Web;
+  src: url("https://assets.getpocket.com/web-ui/assets/Graphik-Regular-Web.f4517c893c366f67105eb10713c09aa8.woff"),
+    url("https://assets.getpocket.com/web-ui/assets/Graphik-Regular-Web.e05a3b2ff4a3813954bcf8bdb83f9804.woff2");
   font-weight: 400;
-  font-style: normal;
+}
+
+@font-face {
+  font-family: Graphik Web;
+  src: url("https://assets.getpocket.com/web-ui/assets/Graphik-Semibold-Web.f9e768566f6ba55e507f398522df32a7.woff"),
+    url("https://assets.getpocket.com/web-ui/assets/Graphik-Semibold-Web.1e9ac78e3efd08db3b5db4380e3a1e6f.woff2");
+  font-weight: 600;
 }
 
 .navbar {
