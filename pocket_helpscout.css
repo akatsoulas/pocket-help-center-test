@@ -8,6 +8,15 @@
 }
 
 @font-face {
+  font-family: "Doyle";
+  src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Doyle-Medium.eot");
+  src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Doyle-Medium.eot?#iefix")
+    format("embedded-opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
   font-family: "Graphik Web";
   src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Semibold-Web.eot");
   src: url("https://dalexsy.github.io/pocket-help-center-test/assets/fonts/Graphik-Semibold-Web.eot?#iefix")
@@ -174,7 +183,7 @@ body {
 
 @media screen and (min-width: 1025px) {
   #docsSearch::before {
-    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_logo.png");
+    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_left_alt");
     background-repeat: no-repeat;
     background-size: auto;
     bottom: 0;
@@ -189,7 +198,7 @@ body {
   }
 
   #docsSearch::after {
-    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_logo.png");
+    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_right_alt");
     background-repeat: no-repeat;
     background-size: auto;
     bottom: 0;
@@ -298,7 +307,7 @@ body {
 .most-pop-articles h2,
 .pkt_collection_heading {
   color: var(--text-primary);
-  font-family: Doyle;
+  font-family: "Doyle";
   font-weight: 500;
   font-size: 23px;
   line-height: 28px;
