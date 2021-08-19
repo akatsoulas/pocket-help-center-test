@@ -264,13 +264,6 @@ body {
     left: 84%;
     width: 580px;
   }
-
-  #contentArea::before {
-    top: -240px;
-    right: -155px;
-    height: 200px;
-    width: 250px;
-  }
 }
 
 @media screen and (min-width: 2300px) {
@@ -280,13 +273,6 @@ body {
 
   #docsSearch::after {
     left: 80%;
-  }
-}
-
-@media screen and (min-width: 1400px) {
-  #contentArea::before {
-    opacity: 1;
-    transform: translate(260px, 0);
   }
 }
 
