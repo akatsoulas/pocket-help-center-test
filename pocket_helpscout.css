@@ -184,7 +184,7 @@ body {
 
 @media screen and (min-width: 1025px) {
   #docsSearch::before {
-    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_left_alt");
+    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_left_alt.png");
     background-repeat: no-repeat;
     background-size: auto;
     bottom: 0;
@@ -199,7 +199,7 @@ body {
   }
 
   #docsSearch::after {
-    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_right_alt");
+    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_right_alt.png");
     background-repeat: no-repeat;
     background-size: auto;
     bottom: 0;
