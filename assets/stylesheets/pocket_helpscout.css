@@ -442,5 +442,9 @@ body {
 .icon-article-doc {
   content: url(https://dalexsy.github.io/pocket-help-center-test/assets/images/icon_article.svg);
   width: 16px;
-  padding-right: 6px;
+  padding-right: 12px;
+}
+
+#categoryHead h1 {
+  font-weight: 600;
 }
