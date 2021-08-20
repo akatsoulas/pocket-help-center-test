@@ -1,18 +1,24 @@
 :root {
   --brand-coral-neon: #ff6682;
   --brand-coral: #ef4056;
+  --brand-teal-darker: #004d48;
   --brand-teal: #008078;
   --brand-teal-light: #95d5d2;
   --brand-amber: #fcb643;
-  --text-primary: #15141a;
+  --text-primary: #1a1a1a;
+  --border-primary: 1px solid #8c8c8c;
+  --border-secondary: 1px solid #dadada;
+  --graphik-web: Graphik Web, proxima-nova, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  --doyle: Doyle, Helvetica, Arial, sans-serif;
 }
 
-.navbar {
-  margin-bottom: 0;
-  box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
-  position: relative;
-  z-index: 3;
+body {
+  font-family: var(--graphik-web) !important;
+  color: var(--text-primary);
 }
+
+/* Top navigation */
 
 #mainNav .brand span {
   display: inline-block;
@@ -24,102 +30,27 @@
   background-size: 100%;
 }
 
-/* Most popular articles */
-
-.most-pop-articles h2 {
-  font-weight: 200;
-}
-
-.most-pop-articles.two-col .popArticles a {
-  padding: 0px;
-}
-
-.most-pop-articles.two-col .popArticles {
-  margin-left: 29px;
-  width: 90%;
-}
-
-@media screen and (min-width: 1024px) {
-  .most-pop-articles.two-col .popArticles {
-    width: 47%;
-  }
-}
-
-#searchBar button {
-  background-color: var(--brand-coral);
-  border: 1px solid var(--brand-coral);
-  text-shadow: none;
-}
-
-#searchBar button:hover {
-  background: #44a09b;
-}
-
 .navbar .nav li a,
 .navbar .icon-private-w {
-  color: #808285;
-}
-
-.navbar .brand,
-.navbar .nav li a:hover,
-.navbar .nav li a:focus,
-.navbar .nav .active a,
-.navbar .nav .active a:hover,
-.navbar .nav .active a:focus {
-  color: #b4b5b7;
-}
-
-#contactModal h2 {
-  background-color: #fff;
-}
-
-body {
-  background-color: #fff;
-  width: 100%;
-}
-.navbar .navbar-inner {
-  background-color: #fff;
-}
-.navbar .nav li a,
-.navbar .icon-private-w {
-  color: #1a1a1a;
-  font-family: "Graphik Web";
+  font-family: var(--graphik-web);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  /* line-height: 20px; */
 }
-.navbar .brand,
-.navbar .nav li a:hover,
-.navbar .nav li a:focus,
-.navbar .nav .active a,
-.navbar .nav .active a:hover,
-.navbar .nav .active a:focus {
-  color: #999;
-}
-.navbar .nav .active .caret {
-  display: none;
-}
+
+/* Docs search */
+
 #docsSearch {
   background: var(--brand-coral-neon);
   position: relative;
   border: none;
   margin-bottom: 40px;
   padding: 0;
-  position: relative;
-}
-
-#docsSearch::before,
-#docsSearch::after {
-  pointer-events: none;
-}
-#searchBar {
-  z-index: 2;
 }
 
 #docsSearch h1 {
-  color: #fff;
-  font-family: "Graphik Web";
+  color: white;
+  font-family: var(--graphik-web);
   font-style: normal;
   font-weight: 600;
   font-size: 33px;
@@ -140,41 +71,9 @@ body {
     padding-top: 2em;
     padding-left: 10%;
     padding-right: 10%;
-    font-size: 30px;
-    line-height: 1.3;
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 1025px) {
-  #docsSearch::before {
-    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_left_alt.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    bottom: 0;
-    content: "";
-    height: 400px;
-    position: absolute;
-    left: 5%;
-    top: 0;
-    transform: translateX(-50%);
-    width: 515px;
-    transition: left 0.2s;
-  }
-
-  #docsSearch::after {
-    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_right_alt.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    bottom: 0;
-    content: "";
-    height: 100%;
-    position: absolute;
-    left: 95%;
-    top: 0;
-    transform: translateX(-50%);
-    width: 515px;
-    transition: left 0.2s;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 12px;
   }
 }
 
@@ -186,10 +85,74 @@ body {
 
   #docsSearch h1 {
     font-size: 36px;
-    /* padding-top: 2.8em; */
-    width: 50%;
-    margin: auto;
     padding-bottom: 24px;
+  }
+}
+
+/* Docs search / Search bar */
+
+#searchBar {
+  z-index: 2;
+}
+
+#searchBar .search-query {
+  font-family: var(--graphik-web);
+  box-shadow: none;
+  border: none;
+}
+
+#searchBar button {
+  background-color: var(--brand-coral);
+  border: 1px solid var(--brand-coral);
+  text-shadow: none;
+  font-family: var(--graphik-web);
+}
+
+#searchBar button:hover {
+  background-color: var(--brand-coral);
+}
+
+#searchBar button .icon-search {
+  color: white;
+}
+
+.navbar .btn-navbar .icon-bar {
+  background: var(--text-primary);
+  box-shadow: none;
+  width: 20px;
+}
+
+/* Docs search / Background images */
+
+#docsSearch::before,
+#docsSearch::after {
+  pointer-events: none;
+}
+
+@media screen and (min-width: 1025px) {
+  #docsSearch::before {
+    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_left_alt.png");
+    background-repeat: no-repeat;
+    content: "";
+    height: 400px;
+    position: absolute;
+    left: 5%;
+    transform: translateX(-50%);
+    width: 515px;
+    transition: left 0.2s;
+  }
+
+  #docsSearch::after {
+    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_right_alt.png");
+    background-repeat: no-repeat;
+    content: "";
+    height: 100%;
+    position: absolute;
+    left: 95%;
+    top: 0;
+    transform: translateX(-50%);
+    width: 515px;
+    transition: left 0.2s;
   }
 }
 
@@ -200,7 +163,6 @@ body {
 
   #docsSearch::after {
     left: 97%;
-    /* background-clip: border-box; */
   }
 }
 
@@ -240,15 +202,7 @@ body {
   }
 }
 
-#searchBar button {
-  background-color: var(--brand-coral);
-  border: 1px solid var(--brand-coral);
-  /* padding-left: 10px; */
-}
-
-#searchBar button:hover {
-  background-color: #ef4056;
-}
+/* Most popular articles */
 
 .most-pop-articles {
   max-width: 1080px;
@@ -258,20 +212,44 @@ body {
 .most-pop-articles h2,
 .pkt_collection_heading {
   color: var(--text-primary);
-  font-family: "Doyle";
+  font-family: var(--doyle);
   font-weight: 500;
   font-size: 23px;
   line-height: 28px;
   text-align: left;
+  margin: 48px 0.8% 24px;
 }
 
 .most-pop-articles h2 {
-  margin: 0px 0.8% 24px;
+  margin-top: 0px;
 }
 
-.pkt_collection_heading {
-  margin: 24px 0.8%;
+.most-pop-articles.two-col .popArticles a {
+  padding: 0px;
+  color: var(--text-primary);
 }
+
+.most-pop-articles.two-col .popArticles a:hover span {
+  text-decoration: none;
+}
+
+.most-pop-articles.two-col .popArticles {
+  margin-left: 29px;
+  width: 90%;
+}
+
+@media (max-width: 768px) {
+  .most-pop-articles.two-col .popArticles {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .most-pop-articles.two-col .popArticles {
+    width: 47%;
+  }
+}
+
 .most-pop-articles .popArticles li {
   list-style-type: none;
   display: flex;
@@ -300,9 +278,9 @@ body {
 .most-pop-articles .popArticles .icon-article-doc {
   display: none;
 }
-.most-pop-articles .popArticles li a {
-  color: #444;
-  padding-left: 20px;
+
+.sep {
+  display: none;
 }
 
 /* Categories */
@@ -326,7 +304,7 @@ body {
 
 .category-list h3 {
   color: var(--text-primary);
-  font-family: "Graphik Web";
+  font-family: var(--graphik-web);
   font-style: normal;
   font-weight: 600;
   font-size: 19px;
@@ -354,7 +332,7 @@ body {
   }
 
   .category-list .category:nth-child(even) {
-    margin-right: 0;
+    margin-right: 10px;
   }
 }
 
@@ -407,62 +385,55 @@ body {
   background-size: 80px 80px;
   background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_logo.png");
 }
-/* Inner Pages */
 
-#searchBar.sm button .icon-search {
-  color: #999;
-}
+/* Contact form */
 
-.navbar .navbar-inner {
-  box-shadow: none;
-}
-#sidebar h3 {
-  color: #777;
-  font-size: 1.1em;
-  letter-spacing: 0.1em;
-  font-weight: 500;
-}
-#sidebar .nav-list a {
-  color: #777;
-}
-
-.contentWrapper .articleList a {
+#contactModal h2,
+.abuse h2 {
   color: var(--text-primary);
-  font-size: 16px;
-}
-.contentWrapper .articleList .icon-article-doc:before {
-  color: var(--brand-teal-light);
-}
-
-/* IN THIS ARTICLE section from Help Scout */
-
-#fullArticle .index-list {
-  margin-bottom: 2.5em;
-  border-left: 5px solid #aaaeb7;
-}
-#fullArticle .index-list h4 {
-  display: block;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 8px 26px 0;
-  font-size: 1em;
   font-weight: 600;
 }
-#fullArticle .index-list ul {
-  list-style: none;
-  margin: 1em 25px 0em;
-  float: left;
+
+#contactModal textarea,
+#contactModal input,
+#contactForm textarea,
+#contactForm input {
+  border: var(--border-primary);
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.35em 0.5em !important;
+  font-family: Graphik Web, proxima-nova, Helvetica Neue, Helvetica, Arial,
+    sans-serif;
+  font-size: 14px;
+  color: var(--text-primary);
 }
-#fullArticle .index-list li {
-  float: left;
-  width: 305px;
+
+#contactModal input,
+#contactForm input {
+  height: 36px !important; /* Help Scout overrides this  otherwise because the form opens later */
 }
-#fullArticle .index-list:before,
-#fullArticle .index-list:after {
-  display: table;
-  content: "";
-  line-height: 0;
+
+#contactModal .btn,
+#contactForm .btn {
+  border: none;
+  background: var(--brand-teal);
+  font-family: var(--graphik-web);
+  font-size: 16px;
+  color: white;
+  box-shadow: none;
 }
-#fullArticle .index-list:after {
-  clear: both;
+
+#contactModal .btn:hover,
+#contactForm .btn:hover {
+  background: var(--brand-teal-darker);
+}
+
+.contentWrapper {
+  border: var(--border-secondary);
+  border-radius: 8px;
+}
+
+#main-content {
+  background: none;
 }
