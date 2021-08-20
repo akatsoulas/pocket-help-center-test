@@ -437,3 +437,10 @@ body {
 #main-content {
   background: none;
 }
+
+/* Article */
+.icon-article-doc {
+  content: url(https://dalexsy.github.io/pocket-help-center-test/assets/images/icon_article.png);
+  width: 16px;
+  padding-right: 6px;
+}
