@@ -411,7 +411,21 @@ body {
 
 #contactModal input,
 #contactForm input {
-  height: 36px !important; /* Help Scout overrides this  otherwise because the form opens later */
+  height: 36px !important; /* Help Scout overrides this otherwise because the form opens later */
+  width: 100% !important;
+}
+
+#contactModal input:focus,
+#contactForm input:focus,
+#contactModal input:hover,
+#contactForm input:hover,
+#contactModal textarea:focus,
+#contactForm textarea:focus,
+#contactModal textarea:hover,
+#contactForm textarea:hover {
+  border: 2px solid #505050;
+  box-shadow: none;
+  transition: none;
 }
 
 #contactModal .btn,
@@ -422,6 +436,7 @@ body {
   font-size: 16px;
   color: white;
   box-shadow: none;
+  text-shadow: none;
 }
 
 #contactModal .btn:hover,
