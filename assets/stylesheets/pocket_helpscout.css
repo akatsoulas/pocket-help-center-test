@@ -469,7 +469,8 @@ body {
   background: none;
 }
 
-#fullArticle p a {
+#fullArticle p a,
+#fullArticle ul a {
   text-decoration: underline;
 }
 
@@ -490,6 +491,24 @@ body {
   font-weight: 600;
 }
 
+#fullArticle .admin-edit {
+  background: var(--brand-teal);
+  text-shadow: none;
+  color: white;
+  border-color: var(--brand-teal);
+  font-size: 14px;
+  padding: 8px 16px;
+  box-shadow: none;
+  border: none;
+}
+
 .articleRatings {
   box-shadow: none;
+}
+
+/* Footer */
+.articleFoot p,
+.articleFoot time {
+  font-family: var(--graphik);
+  font-style: normal;
 }
