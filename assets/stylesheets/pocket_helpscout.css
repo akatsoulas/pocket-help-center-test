@@ -455,6 +455,11 @@ body {
   line-height: 24px;
 }
 
+#sidebar h3 {
+  text-transform: unset;
+  font-size: 18px;
+}
+
 /* Article */
 .contentWrapper {
   border: var(--border-secondary);
