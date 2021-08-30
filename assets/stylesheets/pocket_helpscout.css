@@ -8,7 +8,7 @@
   --text-primary: #1a1a1a;
   --border-primary: 1px solid #8c8c8c;
   --border-secondary: 1px solid #dadada;
-  --shadow-raised-canvas: (box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08));
+  --shadow-raised-canvas: (0px 2px 12px rgba(0, 0, 0, 0.08));
   --graphik-web: Graphik Web, proxima-nova, Helvetica Neue, Helvetica, Arial,
     sans-serif;
   --doyle: Doyle, Helvetica, Arial, sans-serif;
@@ -469,7 +469,7 @@ body {
   background: none;
 }
 
-#fullArticle a {
+#fullArticle p a {
   text-decoration: underline;
 }
 
@@ -482,7 +482,6 @@ body {
 
 #categoryHead .sort select {
   height: 36px;
-  color: pink;
   box-shadow: var(--shadow-raised-canvas);
 }
 
