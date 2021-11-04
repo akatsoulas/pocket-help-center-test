@@ -26,7 +26,7 @@ body {
   text-indent: -9000px;
   width: 121px;
   height: 30px;
-  background: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket-logo.svg")
+  background: url("https://pocket-helpcenter.sumo.mozit.cloud/images/pocket-logo.svg")
     no-repeat 0 0;
   background-size: 100%;
 }
@@ -132,7 +132,7 @@ body {
 
 @media screen and (min-width: 1025px) {
   #docsSearch::before {
-    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_left_alt.png");
+    background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/pocket_help_left_alt.png");
     background-repeat: no-repeat;
     content: "";
     height: 400px;
@@ -144,7 +144,7 @@ body {
   }
 
   #docsSearch::after {
-    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_right_alt.png");
+    background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/pocket_help_right_alt.png");
     background-repeat: no-repeat;
     content: "";
     height: 100%;
@@ -257,7 +257,7 @@ body {
 }
 
 .most-pop-articles .popArticles li::before {
-  content: "▪";
+  content: "â–ª";
   color: var(--brand-teal-light);
   padding-right: 10px;
   font-size: 30px;
@@ -384,7 +384,7 @@ body {
   background-repeat: no-repeat;
   background-position: center 60px;
   background-size: 80px 80px;
-  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_logo.png");
+  background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/pocket_logo.png");
 }
 
 /* Contact form */
@@ -482,7 +482,7 @@ body {
 }
 
 .icon-article-doc {
-  content: url(https://dalexsy.github.io/pocket-help-center-test/assets/images/icon_article.svg);
+  content: url("https://pocket-helpcenter.sumo.mozit.cloud/images/icon_article.svg");
   width: 16px;
   padding-right: 12px;
   opacity: 0.6;
