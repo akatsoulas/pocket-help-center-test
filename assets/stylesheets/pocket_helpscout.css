@@ -257,7 +257,7 @@ body {
 }
 
 .most-pop-articles .popArticles li::before {
-  content: "â–ª";
+  content: "\25AA";
   color: var(--brand-teal-light);
   padding-right: 10px;
   font-size: 30px;
