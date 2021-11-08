@@ -329,7 +329,7 @@ body {
 
 @media screen and (min-width: 760px) and (max-width: 1104px) {
   .category-list .category {
-    width: calc(100% / 2 - 17px);
+    width: calc(99% / 2 - 16px);
   }
 
   .category-list .category:nth-child(even) {
