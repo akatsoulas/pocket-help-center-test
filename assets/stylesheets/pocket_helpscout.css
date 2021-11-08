@@ -132,7 +132,7 @@ body {
 
 @media screen and (min-width: 1025px) {
   #docsSearch::before {
-    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_left.svg");
+    background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/pocket_help_left.svg");
     background-repeat: no-repeat;
     content: "";
     height: 400px;
@@ -144,7 +144,7 @@ body {
   }
 
   #docsSearch::after {
-    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_right.svg");
+    background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/pocket_help_right.svg");
     background-repeat: no-repeat;
     content: "";
     height: 100%;
@@ -387,43 +387,43 @@ body {
 }
 
 .category-list .category:nth-of-type(7n + 1) {
-  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/carrot.svg");
+  background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/carrot.svg");
 }
 
 .category-list .category:nth-of-type(7n + 2) {
-  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/palette.svg");
+  background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/palette.svg");
 }
 
 .category-list .category:nth-of-type(7n + 3) {
-  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/apple.svg");
+  background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/apple.svg");
 }
 
 .category-list .category:nth-of-type(7n + 4) {
-  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/yellow_book.svg");
+  background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/yellow_book.svg");
 }
 
 .category-list .category:nth-of-type(7n + 5) {
-  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/atom.svg");
+  background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/atom.svg");
 }
 
 .category-list .category:nth-of-type(7n + 6) {
-  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/hammer.svg");
+  background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/hammer.svg");
 }
 
 .category-list .category:nth-of-type(7n + 7) {
-  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/running_shoe.svg");
+  background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/running_shoe.svg");
 }
 
 /* Special styling for Pocket Premium tile. The category number should correspond to its ID (category-854) on the production site. */
 #category-6,
 #category-854 {
-  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/premium.svg");
+  background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/premium.svg");
 }
 
 /* Special styling for Getting Started tile. The category number should correspond to its ID (category-857) on the production site. */
 #category-4,
 #category-857 {
-  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_logo.svg");
+  background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/pocket_logo.svg");
 }
 
 /* Contact form */
