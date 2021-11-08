@@ -139,7 +139,7 @@ body {
     position: absolute;
     left: 5%;
     transform: translateX(-50%);
-    width: 515px;
+    width: 530px;
     transition: left 0.2s;
   }
 
@@ -384,10 +384,37 @@ body {
   background-repeat: no-repeat;
   background-position: center 60px;
   background-size: 80px 80px;
-  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_logo.svg");
 }
 
-/* Special styling for Pocket Premium tile. The category number should correspond to its ID on the production site. */
+.category-list .category:nth-child(1n) {
+  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/carrot.svg");
+}
+
+.category-list .category:nth-child(2n) {
+  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/palette.svg");
+}
+
+.category-list .category:nth-child(3n) {
+  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/apple.svg");
+}
+
+.category-list .category:nth-child(4n) {
+  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/yellow_book.svg");
+}
+
+.category-list .category:nth-child(5n) {
+  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/atom.svg");
+}
+
+.category-list .category:nth-child(6n) {
+  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/hammer.svg");
+}
+
+.category-list .category:nth-child(7n) {
+  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/running_shoe.svg");
+}
+
+/* Special styling for Pocket Premium tile. The category number should correspond to its ID (category-854) on the production site. */
 #category-6 {
   background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/premium.svg");
 }
