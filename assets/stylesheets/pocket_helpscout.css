@@ -132,7 +132,7 @@ body {
 
 @media screen and (min-width: 1025px) {
   #docsSearch::before {
-    background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/pocket_help_left_alt.png");
+    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_left.svg");
     background-repeat: no-repeat;
     content: "";
     height: 400px;
@@ -144,7 +144,7 @@ body {
   }
 
   #docsSearch::after {
-    background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/pocket_help_right_alt.png");
+    background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_help_right.svg");
     background-repeat: no-repeat;
     content: "";
     height: 100%;
@@ -195,11 +195,11 @@ body {
 
 @media screen and (min-width: 2300px) {
   #docsSearch::before {
-    left: 20%;
+    left: 30%;
   }
 
   #docsSearch::after {
-    left: 80%;
+    left: 73%;
   }
 }
 
@@ -384,7 +384,12 @@ body {
   background-repeat: no-repeat;
   background-position: center 60px;
   background-size: 80px 80px;
-  background-image: url("https://pocket-helpcenter.sumo.mozit.cloud/images/pocket_logo.png");
+  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/pocket_logo.svg");
+}
+
+/* Special styling for Pocket Premium tile. The category number should correspond to its ID on the production site. */
+#category-6 {
+  background-image: url("https://dalexsy.github.io/pocket-help-center-test/assets/images/premium.svg");
 }
 
 /* Contact form */
