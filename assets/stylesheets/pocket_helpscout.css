@@ -513,6 +513,12 @@ body {
   border-radius: 8px;
 }
 
+@media screen and (max-width: 759px) {
+  .contentWrapper {
+    margin: 16px;
+  }
+}
+
 .contentWrapper h1 {
   font-weight: 600;
 }
