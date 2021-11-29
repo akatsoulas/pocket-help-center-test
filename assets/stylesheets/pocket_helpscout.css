@@ -516,6 +516,7 @@ body {
 @media screen and (max-width: 759px) {
   .contentWrapper {
     margin: 16px;
+    box-shadow: var(--shadow-raised-canvas);
   }
 }
 
