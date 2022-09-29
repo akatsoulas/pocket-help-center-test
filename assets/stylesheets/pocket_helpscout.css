@@ -251,12 +251,6 @@ body {
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .most-pop-articles.two-col .popArticles {
-    width: 47%;
-  }
-}
-
 .most-pop-articles .popArticles li {
   list-style-type: none;
   display: flex;
